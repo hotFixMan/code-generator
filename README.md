@@ -1,0 +1,2 @@
+# code-generator
+自动生成已扩展的pojo,基本增删改查的controller,service,serviceImpl,mapperClient,sqlMapper,vue,使用扩展mybatis插件和velocity模板引擎混合完成,实现jsonb字段类型属性通用解决方法
