@@ -1,2 +1,2 @@
 # code-generator
-自动生成已扩展的pojo,基本增删改查的controller,service,serviceImpl,mapperClient,sqlMapper,vue,使用扩展mybatis插件和velocity模板引擎混合完成,解决对象中jsonb字段通用查询和返回的问题
+Automatic generation of extended pojo, basic add-delete check controller, service, service Impl, mapperClient, SQL Mapper, vue, using extended mybatis plugin and velocity template engine to solve the problem of general query and return of jsonb field in object
