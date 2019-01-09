@@ -17,7 +17,6 @@ import java.util.List;
  * @author passionateLittleBaby
  * @createDateTime 2019-01-09 10:40
  * @description add lombok annotation to the pojo
- * @see
  */
 @Log4j2
 public class PojoPlugin extends PluginAdapter {
@@ -42,7 +41,7 @@ public class PojoPlugin extends PluginAdapter {
         topLevelClass.addImportedType(new FullyQualifiedJavaType("lombok.*"));
         List<String> annotationList = Lists.newArrayList("@Data", "@Builder", "@NoArgsConstructor", "@AllArgsConstructor");
         PluginUtils.addAnnotations(topLevelClass, annotationList);
-        log.debug(">>>>>>>>> Pojo added lombok annotations");
+        log.info("Pojo added lombok annotations");
         return true;
     }
 
