@@ -11,20 +11,20 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer implements CommandLineRunner {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return super.configure(builder);
-	}
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        return super.configure(builder);
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-		log.info(">>>>>>>>> Code generator service launched");
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+        log.info(">>>>>>>>> Code generator service launched");
+    }
 
-	@Override
-	public void run(String... args) throws Exception {
-		log.info(">>>>>>>>> Start generating code");
-		//TODO 生成调用
-	}
+    @Override
+    public void run(String... args) {
+        log.info(">>>>>>>>> Start generating code");
+        //TODO 生成调用
+    }
 }
 
